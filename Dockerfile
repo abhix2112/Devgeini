@@ -1,5 +1,6 @@
 # Use a newer Rust version that supports latest crates
-FROM rust:1.75 AS builder
+FROM rust:latest AS builder
+
 
 WORKDIR /app
 
