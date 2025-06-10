@@ -8,7 +8,7 @@ param(
 $ErrorActionPreference = "Stop"
 
 # Configuration
-$exeUrl = "https://github.com/abhix2112/Devgeini/releases/latest/download/devgeini.exe"
+$exeUrl = "https://github.com/abhix2112/Devgeini/releases/latest/download/devgeini-windows-x86_64.exe"
 $installDir = "$env:ProgramData\devgeini"
 $exePath = "$installDir\devgeini.exe"
 
